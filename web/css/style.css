@@ -1,0 +1,813 @@
+body{
+    background-color:white;
+    color:white;
+    //background-image:url(https://jacquelynchen.files.wordpress.com/2012/05/life-is-like-riding-a-bicycle.jpg);
+    
+    background-repeat:no-repeat;
+    background-image: cover;
+    background-size:cover;
+}
+
+#footer {
+    color:black;
+    clear:both;
+    text-align:left;
+    padding:5px; 
+    width:1000px;
+}
+
+#containerlogintop
+{
+    border:2px solid black;
+    border-top-right-radius:3em; 
+    border-bottom-right-radius:3em; 
+    width:80%;
+    height:15%;
+    opacity:0.8;
+    background: rgba(18,106,117,0.8);
+}
+#loginButton{
+font-size:14px;
+}
+
+#containerloginbottom {
+    margin-left: 30%;
+    margin-top: 42%;
+    border: 2px solid #000;
+    border-top-left-radius: 3em;
+    border-bottom-left-radius: 3em;
+    width: 70%;
+    height: 4%;
+    background-color: #FFF;
+    opacity: 0.7;
+}
+
+.HorizLinkstop
+{
+    font-family:Calibri;
+    font-size:50px;
+    color:white;
+}
+
+#headerSearch{
+    background-color:rgba(76,151,168,0.5); 
+    border-color: rgba(193,225,230,0.9)
+}
+
+#searchdiv
+{
+    width:19%;
+    height:8%;
+    opacity:1.0;
+    position: absolute;top:2%;left: 80%;
+}
+
+.log{
+    background: rgba(178,240,247,0.3);
+    border-color:rgba(18,106,117,0.9);
+ 
+}
+.logLogin{
+    alignment-adjust: middle;
+    background: rgba(178,240,247,0.3);
+    border-color:rgba(18,106,117,0.9);
+}
+
+.log1{
+    background: rgba(18,106,117,0.9);
+    border-color: rgba(18,106,117,0.9);
+}
+
+
+#image{
+    width:160px ;
+    height:160px;
+}
+
+#image2{
+    width:200px ;
+    height:130px;
+}
+
+#itemImage{
+    width:325px ;
+    height:160px;
+}
+
+#info{
+    text-align:center;
+}
+
+.PopupPanel
+{
+    border: solid 1px black;
+    position: absolute;
+    left: 51%;
+    top: 58%;
+
+    background: rgba(133,225,237,0.3);
+    z-index: 100;	
+
+    height: 410px;
+    margin-top: -80px;
+
+    width: 985px;
+    margin-left: -330px;
+}
+
+.PopupPanelLogin
+{
+    border: solid 1px black;
+    position: absolute;
+    left: 51%;
+    top: 58%;
+    alignment-adjust: middle;
+
+    background: rgba(133,225,237,0.3);
+    z-index: 100;	
+
+    height: 160px;
+    margin-top: -80px;
+
+    width: 310px;
+    margin-left: -330px;
+}
+
+.PopupPanelRegister
+{
+    border: solid 1px black;
+    position: absolute;
+    left: 51%;
+    top: 58%;
+    alignment-adjust: middle;
+
+    background: rgba(133,225,237,0.3);
+    z-index: 100;	
+
+    height: 365px;
+    margin-top: -80px;
+
+    width: 335px;
+    margin-left: -330px;
+}
+.PopupPanelItem
+{
+    border: solid 1px black;
+    position: absolute;
+    left: 51%;
+    top: 58%;
+    alignment-adjust: middle;
+
+    background: rgba(133,225,237,0.3);
+    z-index: 100;	
+
+    height: 460px;
+    margin-top: -80px;
+
+    width: 365px;
+    margin-left: -330px;
+}
+.PopupPanelCart
+{
+    border: solid 1px black;
+    position: absolute;
+    left: 51%;
+    top: 58%;
+    alignment-adjust: middle;
+
+    background: rgba(133,225,237,0.3);
+    z-index: 100;	
+
+    height: 335px;
+    margin-top: -80px;
+
+    width: 830px;
+    margin-left: -330px;
+}
+.PopupPanelCheckout
+{
+    border: solid 1px black;
+    position: absolute;
+    left: 51%;
+    top: 58%;
+    alignment-adjust: middle;
+
+    background: rgba(133,225,237,0.3);
+    z-index: 100;	
+
+    height: 160px;
+    margin-top: -80px;
+
+    width: 317px;
+    margin-left: -330px;
+}
+
+.PopupPanelOrder
+{
+    border: solid 1px black;
+    position: absolute;
+    left: 51%;
+    top: 58%;
+    alignment-adjust: middle;
+
+    background: rgba(133,225,237,0.3);
+    z-index: 100;	
+
+    height: 410px;
+    margin-top: -80px;
+
+    width: 640px;
+    margin-left: -330px;
+}
+
+.PopupPanelPayment
+{
+    border: solid 1px black;
+    position: absolute;
+    left: 51%;
+    top: 58%;
+    alignment-adjust: middle;
+
+    background: rgba(133,225,237,0.3);
+    z-index: 100;	
+
+    height: 235px;
+    margin-top: -80px;
+
+    width: 330px;
+    margin-left: -330px;
+}
+
+.PopupPanelPaymentSuccess
+{
+    border: solid 1px black;
+    position: absolute;
+    left: 51%;
+    top: 58%;
+    alignment-adjust: middle;
+
+    background: rgba(133,225,237,0.3);
+    z-index: 100;	
+
+    height: 185px;
+    margin-top: -80px;
+
+    width: 720px;
+    margin-left: -330px;
+}
+.PopupPanelRegisterSuccess
+{
+    border: solid 1px black;
+    position: absolute;
+    left: 51%;
+    top: 58%;
+    alignment-adjust: middle;
+
+    background: rgba(133,225,237,0.3);
+    z-index: 100;	
+
+    height: 185px;
+    margin-top: -80px;
+
+    width: 332px;
+    margin-left: -330px;
+}
+.PopupPanelRentList
+{
+    border: solid 1px black;
+    position: absolute;
+    left: 51%;
+    top: 58%;
+    alignment-adjust: middle;
+
+    background: rgba(133,225,237,0.3);
+    z-index: 100;	
+
+    height: 175px;
+    margin-top: -80px;
+
+    width: 407px;
+    margin-left: -330px;
+}
+.PopupPanelInvoice
+{
+    border: solid 1px black;
+    position: absolute;
+    left: 51%;
+    top: 58%;
+    alignment-adjust: middle;
+
+    background: rgba(133,225,237,0.3);
+    z-index: 100;	
+
+    height: 340px;
+    margin-top: -80px;
+
+    width: 580px;
+    margin-left: -330px;
+}
+
+.PopupPanelAdmin
+{
+    border: solid 1px black;
+    position: absolute;
+    left: 51%;
+    top: 58%;
+    alignment-adjust: middle;
+
+    background: rgba(133,225,237,0.3);
+    z-index: 100;	
+
+    height: 215px;
+    margin-top: -80px;
+
+    width: 535px;
+    margin-left: -330px;
+}
+
+#cartTable {
+    width:800px;
+    height:50px; 
+    padding:5px; 
+    text-align: right;
+}
+
+#siteNavig{
+    text-decoration:none;
+}
+
+ul.table {
+    display: table;
+}
+ul.table > li {
+    display: table-cell;
+}
+.centered ul.table > li {
+    padding-left: 1em;
+    padding-right: 1em;    
+}
+ul.table.even {
+    width: 97%;
+    table-layout:fixed;
+    height: 1%;
+}
+
+#login{
+    background-color:transparent;
+    border-color: rgba(193,225,230,0.6);
+    
+}
+
+.f1_label {
+    white-space: nowrap;
+}
+
+#error {
+    color:red;
+}
+
+#success {
+    color:yellow;
+}
+
+#f1_label{
+    color:black;
+}   
+    
+
+#weather{
+  width:180px;
+  height:60px; 
+}
+#video{
+   width:250px;
+   height:123px;
+}
+
+
+//------------------------------------------------------
+
+
+
+
+#roomtext {
+    position: absolute;
+    top: 14%;
+    left: 32%;
+    width: 50%;
+    height: 75%;
+}
+#details {
+    background-color: #fff;
+    opacity: 0.8;
+    width: 45%;
+    height: 76%;
+    position: absolute;
+    top: 14%;
+    left: 28%;
+}
+#new2 {
+    background-color: #fff;
+    opacity: 0.8;
+    height: 75%;
+    position: absolute;
+    top: 15%;
+    bottom:50%;
+    left: 10%;
+
+    overflow:scroll;
+}
+#new {
+    background-color: #fff;
+    opacity: 0.8;
+    width: 45%;
+    height: 76%;
+    position: absolute;
+    top: 3%;
+    left:45%;
+}
+#new1 {
+    background-color: #fff;
+    opacity: 0.8;
+    width: 70%;
+    height: 76%;
+    position: absolute;
+    top: 20%;
+    left:28%;
+}
+#details2 {
+    background-color: #fff;
+    opacity: 0.8;
+    width: 52%;
+    height: 76%;
+    position: absolute;
+    top: 14%;
+    left: 24%;
+}
+#details1 {
+    background-color: #fff;
+    opacity: 0.8;
+    width: 75%;
+    height: 76%;
+    position: absolute;
+    top: 14%;
+    left: 2%;
+}
+#roomdata {
+    background-color: #fff;
+    opacity: 0.8;
+    width: 45%;
+    height: 76%;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+}
+#regdata {
+    background-color: #fff;
+    opacity: 0.8;
+    width: 45%;
+    height: 76%;
+    position: absolute;
+    top: 2%;
+    left: 4%;
+}
+#room {
+    color: #FFF;
+    float: left;
+    background-color: #000;
+    opacity: 0.8;
+    width: 22%;
+    height: 15%;
+    position: absolute;
+    top: 14%;
+    border-radius: 2em;
+}
+
+#hotel 
+{
+    color: #FFF;
+    float: left;
+    background-color: #000;
+    opacity: 0.8;
+    width: 22%;
+    height: 15%;
+    position: absolute;
+    top: 71%;
+    border-radius: 2em;
+}
+#inservices {
+    float: left;
+    opacity: 0.8;
+    width: 22%;
+    height: 15%;
+    position: absolute;
+    top: 33%;
+    border-radius: 2em;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+#travelservices {
+    float: left;
+    background-color: #000;
+    opacity: 0.8;
+    width: 22%;
+    height: 15%;
+    position: absolute;
+    top: 52%;
+    border-radius: 2em;
+    color: #fff;
+}	
+
+
+.HorizLinks
+{
+    font-family:Comic Sans MS;
+    font-size:15px;
+    color:black;
+    background: rgba(133,225,237,0.3);
+}
+.HorizLinksbottom
+{
+    font-family:Comic Sans MS;
+    font-size:15px;
+    color:Black;
+}
+#containerroom
+{
+    margin-top:3%;
+    margin-left:15%;
+    background-color:white;
+    width:70%;
+    height:75%;
+    opacity:0.7;
+}
+#container
+{
+    margin-top:-36%;
+    margin-left:26%;
+    background-color:white;
+    width:70%;
+    height:73%;
+    opacity:0.7;
+}
+.containercheck {
+    background-color: #000;
+    margin-top: 1%;
+    margin-left: 78%;
+    width: 20%;
+    height: 80%;
+    opacity: 0.7;
+    border-radius: 2em;
+    position: absolute;
+}
+.logincheck {
+    position: absolute;
+    top: 15%;
+    left: 28.5%;
+}
+.roomcheck {
+    position: absolute;
+    top: 15%;
+    left: 79.5%;
+}
+
+.roomimage
+{
+    position: absolute; top: 18%;left:28%;
+}
+a
+{
+    color:black;
+    /*position: absolute; top: 3.5%;left:59.5%;
+    margin-left:22%;
+    border:2px solid black;
+    border-top-left-radius:3em; 
+    border-bottom-left-radius:3em; 
+width:18%;
+    height:4%;
+    background-color:white;
+    opacity:0.7;*/
+}
+
+#containersearch
+{
+    width:80%;
+    height:3%;
+    background-color: background;
+    opacity:0.8;
+}
+ul.container {
+    box-shadow: 0 0 5px black;
+}
+ul.container > li {
+    text-align: center;
+}
+ul.container > li:nth-child(odd) {
+
+    background: rgba(22,127,140,0.7);
+}
+ul.container > li:nth-child(even) {
+
+    background: rgba(133,225,237,0.3);
+}
+
+
+
+.form-3 {
+    font-family: 'Ubuntu', 'Lato', sans-serif;
+    font-weight: 400;
+    /* Size and position */
+    width: 300px;
+    position: absolute;
+    margin: 60px auto 30px;
+    padding: 10px;
+    overflow: hidden;
+
+
+    /* Styles */
+    background: #111; 
+    border-radius: 0.4em;
+    border: 1px solid #191919;
+    box-shadow: 
+        inset 0 0 2px 1px rgba(255,255,255,0.08), 
+        0 16px 10px -8px rgba(0, 0, 0, 0.6);
+}
+.form-3 label {
+    /* Size and position */
+    width: 50%;
+    float: left;
+    padding-top: 9px;
+
+    /* Styles */
+    color: #ddd;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 0 #000;
+    text-indent: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form-3 input[type=text],
+.form-3 input[type=password] {
+    /* Size and position */
+    width: 50%;
+    float: left;
+    padding: 8px 5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+
+    /* Styles */
+    background: linear-gradient(#1f2124, #27292c);    
+    border: 1px solid #000;
+    box-shadow:
+        0 1px 0 rgba(255,255,255,0.1);
+    border-radius: 3px;
+
+    /* Font styles */
+    font-family: 'Ubuntu', 'Lato', sans-serif;
+    color: #fff;
+
+}
+
+.form-3 input[type=text]:hover,
+.form-3 input[type=password]:hover,
+.form-3 label:hover ~ input[type=text],
+.form-3 label:hover ~ input[type=password] {
+    background: #27292c;
+}
+
+.form-3 input[type=text]:focus, 
+.form-3 input[type=password]:focus {
+    box-shadow: inset 0 0 2px #000;
+    background: #494d54;
+    border-color: #51cbee;
+    outline: none; /* Remove Chrome outline */
+}
+
+.form-3 p:nth-child(3),
+.form-3 p:nth-child(4) {
+    float: left;
+    width: 50%;
+}
+
+.form-3 label[for=remember] {
+    width: auto;
+    float: none;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-indent: 2px;
+}
+
+
+.form-3 input[type=submit] {
+    /* Width and position */
+    width: 100%;
+    padding: 8px 5px;
+
+    /* Styles */
+    border: 1px solid #0273dd; /* Fallback */
+    border: 1px solid rgba(0,0,0,0.4);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.3),
+        inset 0 10px 10px rgba(255,255,255,0.1);
+    border-radius: 3px;
+    background: #38a6f0;
+    cursor:pointer;
+
+    /* Font styles */
+    font-family: 'Ubuntu', 'Lato', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.8);
+}
+
+.form-3 input[type=submit]:hover { 
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+}
+
+.form-3 input[type=submit]:active { 
+    background: #287db5;
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.6);
+    border-color: #000; /* Fallback */
+    border-color: rgba(0,0,0,0.9);
+}
+
+.no-boxshadow .form-3 input[type=submit]:hover {
+    background: #2a92d8;
+}
+
+.form-3:after {
+    /* Size and position */
+    content: "";
+    height: 1px;
+    width: 33%;
+    position: absolute;
+    left: 20%;
+    top: 0;
+
+    /* Styles */
+    background: linear-gradient(left, transparent, #444, #b6b6b8, #444, transparent);
+}
+
+#login_form {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    right: 30%;
+    bottom: 20%;
+    font-size: 18px;
+    border-width : 3px;
+    border-color : black;
+}
+
+#f1 {
+    background-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+fieldset
+{
+    border: 1px solid #781351;
+    background-color: palevioletred;
+    width: 17em;
+    alignment-adjust:  initial;
+    white-space: nowrap;
+}
+
+legend
+{
+    color: lavender;
+    background: purple;
+    border: 1px solid #781351;
+    padding: 2px 6px;
+}
+
+.fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.SignupForm
+{
+    border: solid 1px black;
+    position: absolute;
+    left: 52%;
+    top: 60%;
+    background-color: rgba(178,240,247,0.3);
+    z-index: 100;
+    height: 480px;
+    margin-top: -220px;
+    width: 945px;
+    margin-left: -330px;
+}
+
